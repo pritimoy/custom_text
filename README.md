@@ -16,24 +16,19 @@ know whether this package might be useful for them.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+1: Easily handle text widget with all useful feature
+2: Add padding top, bottom, left, right
+3: Set onTap function on any text
+4: Use Customize text style
 
 ## Getting started
+Just Call CustomText() and pass all your a essentials parameter
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
-```
+TextStyle customText = TextStyle(color: Colors.black, fontSize: 14.0);
+CustomText(text:"your text", softWrap: true, onTap:(){}, maxLines: 3, textStyle:customText );
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
