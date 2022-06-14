@@ -1,6 +1,6 @@
-name: custom_text
+name: custom_text_widget
 description: CustomText is a text widget with more usefull feature
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/pritimoy/custom_text
 
 environment:
