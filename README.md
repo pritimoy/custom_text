@@ -11,8 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+TODO: Custom Text is simple flutter text widget with more useful feature like ontap, padding and style
 
 ## Features
 
@@ -30,5 +29,6 @@ Just Call CustomText() and pass all your a essentials parameter
 TextStyle customText = TextStyle(color: Colors.black, fontSize: 14.0);
 CustomText(text:"your text", softWrap: true, onTap:(){}, maxLines: 3, textStyle:customText );
 
-## Additional information
+
+
 
